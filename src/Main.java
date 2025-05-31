@@ -31,7 +31,8 @@ public class Main {
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 + number2;
 
-                System.out.println("O resultado de " + number1 + " + " + number2 + " é igual a " + resultado + "\n");
+                System.out.println("O resultado de " + number1 + 
+                                   " + " + number2 + " é igual a " + resultado + "\n");
 
                 break;
 
@@ -41,7 +42,8 @@ public class Main {
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 - number2;
 
-                System.out.println("O resultado de " + number1 + " - " + number2 + " é igual a " + resultado + "\n");
+                System.out.println("O resultado de " + number1 + 
+                                   " - " + number2 + " é igual a " + resultado + "\n");
 
                 break;
 
@@ -50,7 +52,8 @@ public class Main {
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 * number2;
 
-                System.out.println("O resultado de " + number1 + " x " + number2 + " é igual a " + resultado + "\n");
+                System.out.println("O resultado de " + number1 + 
+                                   " x " + number2 + " é igual a " + resultado + "\n");
 
                 break;
 
@@ -62,15 +65,16 @@ public class Main {
                 resto = number1 % number2;
 
                 /*
-                Exemplo de divisão sendo realizada manualmente
+                    Exemplo de divisão sendo realizada manualmente
 
-                while(assistent1>=number2)
-                {
-                    assistent1 = assistent - number2;
-                }
+                    while(assistent1>=number2)
+                    {
+                        assistent1 = assistent - number2;
+                    }
 
-                System.out.println("O resultado de " + number1 + " : " + number2 + " é igual a " + resultado + "\n
-                O Resto da operação é = " + assistent1 + ".\n");
+                    System.out.println("O resultado de " + number1 + 
+                                " : " + number2 + " é igual a " + resultado + "\n
+                                O Resto da operação é = " + assistent1 + ".\n");
                 */
 
                 System.out.println("O resultado de " + number1 + " : " + number2 + " é igual a " + resultado + "\n");
@@ -89,7 +93,8 @@ public class Main {
                     assistent1 ++;
                 }
 
-                System.out.println("O Resultado de " + number1 + " elevado a potência de " + number2 + " é igual a " + resultado);
+                System.out.println("O Resultado de " + number1 + 
+                                   " elevado a potência de " + number2 + " é igual a " + resultado);
 
                 break;
 
