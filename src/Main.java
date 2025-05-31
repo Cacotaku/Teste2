@@ -16,11 +16,11 @@ public class Main {
 
         System.out.println("Calculadora maluca:\n" +
                 "digite sua operação desejada\n" +
-                "1 - Soma\n" +
-                "2 - subtração\n" +
-                "3 - multiplicação\n" +
-                "4 - divisão\n" +
-                "5 - exponenciação\n\n");
+                    "1 - Soma\n" +
+                    "2 - subtração\n" +
+                    "3 - multiplicação\n" +
+                    "4 - divisão\n" +
+                    "5 - exponenciação\n\n");
 
         opt = Integer.parseInt(JOptionPane.showInputDialog("Opção desejada"));
 
