@@ -26,7 +26,7 @@ public class Main {
 
         switch(opt){
 
-            case 1 :
+            case 1 : //Caso 1 - Adição
                 number1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o primeiro valor:"));
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 + number2;
@@ -36,7 +36,7 @@ public class Main {
                 break;
 
 
-            case 2 :
+            case 2 : //Caso 2 - Subtração
                 number1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o primeiro valor:"));
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 - number2;
@@ -45,7 +45,7 @@ public class Main {
 
                 break;
 
-            case 3 :
+            case 3 : //Caso 3 - Multiplicação
                 number1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o primeiro valor:"));
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 * number2;
@@ -54,7 +54,7 @@ public class Main {
 
                 break;
 
-            case 4 :
+            case 4 : //Caso 4 - Divisão
                 number1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o primeiro valor:"));
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o segundo valor:"));
                 resultado = number1 / number2;
@@ -62,10 +62,13 @@ public class Main {
                 resto = number1 % number2;
 
                 /*
+                Exemplo de divisão sendo realizada manualmente
+
                 while(assistent1>=number2)
                 {
                     assistent1 = assistent - number2;
                 }
+
                 System.out.println("O resultado de " + number1 + " : " + number2 + " é igual a " + resultado + "\n
                 O Resto da operação é = " + assistent1 + ".\n");
                 */
@@ -74,7 +77,7 @@ public class Main {
 
                 break;
 
-            case 5 :
+            case 5 : // Exponenciação
                 number1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o exponente\n"));
                 number2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a potência\n"));
                 resultado = number1;
